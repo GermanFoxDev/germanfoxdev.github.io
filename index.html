@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,44 +14,56 @@
 </head>
 <body>
     <div class="bg-animation">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars4"></div>
+        <canvas id="canvas"></canvas>
     </div>
 
     <div class="center-div">
 
+        <div class="center-bg"></div>
+
         <div class="buttons">
             <button class="active" data-target="about-me">About Me</button>
             <button data-target="c2">Contact</button>
-            <button data-target="c3">Button 3</button>
-            <button data-target="c4">Button 4</button>
+            <button data-target="c3">Projects</button>
+            <button data-target="c4">Links</button>
         </div>
 
         <div class="context">
+            <br>
 
             <div id="about-me" class="active">
-                Hi, I’m Sönke! I’m a furry with a passion for programming, especially when it comes to creating video games using Unreal Engine.</br></br>
-                !the website will be improved over time!
+
+                <h1>Hi!</h1>
+                <p>I am Sönke, I’m a furry with a passion for programming, especially when it comes to creating video games using Unreal Engine.</p>
+
             </div>
 
             <div id="c2">
-                Email: GermanFoxDev@gmail.com</br>
-                Discord: germanfoxdev
+
+                <p>Email: GermanFoxDev@gmail.com</p>
+                <p>Discord: germanfoxdev</p>
+
             </div>
 
             <div id="c3">
-                Div3
+
+                <h2>My Projects</h2>
+
             </div>
 
             <div id="c4">
-                Div4
+
+                <h2>My Links</h2>
+
             </div>
 
         </div>
 
     </div>
+
+    <footer>
+        Copyright 2024 <br> ! The website will be improved over time !
+    </footer>
 
     <script src="script.js"></script>
 </body>
